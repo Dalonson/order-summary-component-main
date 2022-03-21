@@ -13,6 +13,13 @@
       href="./images/favicon-32x32.png"
     />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
     <title>Frontend Mentor | Order summary card</title>
   </head>
   <body>
@@ -25,17 +32,27 @@
           />
         </div>
         <div class="summary-box">
-          <h2>Order Summary</h2>
-          <p>
+          <h2 class="title">Order Summary</h2>
+          <p class="description">
             You can now listen to millions of songs, audiobooks, and podcasts on
             any device anywhere you like!
           </p>
-          <div class="plan-card">
-            <img src="./images/icon-music.svg" alt="music icon" />
-            Annual Plan $59.99/year Change
+          <div class="plan-box">
+            <img
+              class="music-icon"
+              src="./images/icon-music.svg"
+              alt="music icon"
+            />
+            <div class="plan">
+              <h3 class="plan-title">Annual Plan</h3>
+              <p class="price">$59.99/year</p>
+            </div>
+            <a class="chng-plan" href="#"> Change </a>
           </div>
-
-          Proceed to Payment Cancel Order
+          <div class="btn-box">
+            <button>Proceed to Payment</button>
+            <a class="cancel" href="#"> Cancel Order </a>
+          </div>
         </div>
       </div>
     </section>
