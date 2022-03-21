@@ -1,4 +1,9 @@
 body {
   background-color: bisque;
 }
+
+img {
+  height: 50em;
+  width: 50em;
+}
 /*# sourceMappingURL=styles.css.map */
